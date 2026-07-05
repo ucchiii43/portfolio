@@ -21,7 +21,10 @@ function App() {
 
         <section id="about" className="section">
           <h2>About Me</h2>
-          <p>ここに自己紹介を書いてください。</p>
+          <div className="about-content">
+            <img src="/portfolio/favicon.png" alt="プロフィール画像" className="about-image" />
+            <p>大学時代は機械学習の研究を行っていた。現在はWeb企業でRuby on Railsを用いてバックエンドエンジニアとして働いている。</p>
+          </div>
         </section>
 
         <section id="projects" className="section">

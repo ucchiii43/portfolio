@@ -69,6 +69,28 @@
   text-align: center;
 }
 
+/* About */
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.about-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 /* Projects Grid */
 .projects-grid {
   display: grid;
