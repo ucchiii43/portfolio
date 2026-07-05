@@ -16,8 +16,7 @@ function App() {
 
       <main>
         <section className="hero">
-          <h1>Welcome to My Portfolio</h1>
-          <p>フルスタックエンジニア</p>
+          <h1>Welcome to ucchiii's Portfolio</h1>
         </section>
 
         <section id="about" className="section">
@@ -52,10 +51,6 @@ function App() {
           </a>
         </section>
       </main>
-
-      <footer>
-        <p>&copy; 2026 Portfolio. All rights reserved.</p>
-      </footer>
     </div>
   )
 }
