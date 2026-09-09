@@ -10,4 +10,10 @@ end
 
 class Sample
   @sample = 'sampleクラス'
+
+  class << self
+    def foo
+      @sample + 'fooメソッド'
+    end
+  end
 end
