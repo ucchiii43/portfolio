@@ -16,4 +16,8 @@ class Sample
       @sample + 'fooメソッド'
     end
   end
+
+  def hoge
+    @sample + 'hogeメソッド'
+  end
 end
