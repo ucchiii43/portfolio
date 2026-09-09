@@ -5,4 +5,8 @@ class Sample
 
     end
   end
+
+  def hoge
+
+  end
 end
