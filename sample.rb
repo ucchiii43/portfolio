@@ -9,6 +9,8 @@ module Bar
 end
 
 class Sample
+  include Bar
+
   @sample = 'sampleクラス'
 
   class << self
@@ -18,6 +20,6 @@ class Sample
   end
 
   def hoge
-    @sample + 'hogeメソッド'
+    bar + 'hogeメソッド'
   end
 end
